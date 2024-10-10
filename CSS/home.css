@@ -64,10 +64,10 @@ margin-top: 30px;
   
 }
 
-.hide-on-mobile, input, label, h6, p{
+/* .hide-on-mobile, input, label, h6, p{
 	font-size: 5px;
 	padding-left: 65px;
-}
+} */
 
 .dd-grid{
   background-color: #07278c; 
