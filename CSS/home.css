@@ -64,10 +64,10 @@ margin-top: 30px;
   
 }
 
-/* .hide-on-mobile, input, label, h6, p{
+ .hide-on-mobile, input, label, h6, p{
 	font-size: 5px;
 	padding-left: 65px;
-} */
+} 
 
 .dd-grid{
   background-color: #07278c; 
@@ -345,11 +345,11 @@ font-weight: bold;
   font-weight: bold;
 }
 
-.card-body p, h6 {
+/* .card-body p, h6 {
   padding-bottom: 0px;
  font-weight: bold;
  
-}
+} */
 
 .rentals-three button{
   width: 30%;
@@ -458,11 +458,11 @@ font-weight: bold;
   
 }
 
-.card-body p, h6 {
+/* .card-body p, h6 {
  padding-bottom: 0px;
  font-weight: bold;
 
-}
+} */
 
 .col h3{
  
