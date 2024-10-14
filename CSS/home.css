@@ -29,7 +29,7 @@ margin: 0;
 padding-right: 10px;
 }
 
-.sign-in-button {
+/* .sign-in-button {
 background-color: white;
 color: #07278c;
 border: none;
@@ -37,7 +37,8 @@ padding: 5px 20px;
 border-radius: 5px;
 cursor: pointer;
 font-weight: bold;
-}
+font-size: 30px;
+} */
 
 .close-banner {
 position: absolute;
@@ -87,15 +88,15 @@ margin-top: 30px;
   }
 
  .btn-btn{
-  color: #07278c; 
-  font-weight: bold; 
-  background-color: aqua; 
+  background-color: rgb(13, 112, 112); 
   width: 10%;
   height: 45px;
   border-radius: 15px;
   margin: auto;
   text-align: center;
     }
+
+  
 
 .featured-hotels {
 	padding: 20px;
@@ -593,7 +594,7 @@ font-weight: bold;
 
 /* @media screen and (max-width: 1200px)*/
 
-@media (max-width: 1416px) {
+@media (max-width: 1214px) {
   input {
     width: 30%;
     height: 4vh; 
@@ -605,32 +606,36 @@ font-weight: bold;
   
   }
 
-  .card {
-    width: 100%;
-    height: 20vh; 
-  }
+  
 
   }
 
 
   @media screen and (max-width: 1200px) {
-    .dd-grid{
-      margin-top: 80px;
-      width: 400px;
-      font-size: 10px;
-      
-      
-      }
+    .mid{
+      background-color: #100101;
+      padding-left: 2px;
+     
+    }
 
-      .box-one, p{
-        text-align: center;
-        font-size: 12px;
-      }
-    
-     .btn-btn{
+   .mid, box-one, p{
+    margin-left: 10px;
+    width: 100%;
+    font-size: 12px;
+   }
+   
+    .btn-btn{
       margin-top: 30px;
       width: 200px;
+      background-color: #ffffff;
         }
+
+        .dd-grid{
+          
+          width: 350px;
+          font-size: 15px;
+              
+          }
 
 
 }
@@ -658,7 +663,7 @@ font-weight: bold;
 }
 
   .dd-grid{
-    margin-top: 100px;
+    margin-top: 60px;
        
     }
   
@@ -690,6 +695,7 @@ font-weight: bold;
   
    .btn-btn{
     margin-top: 45px;
+
     
       }
     
@@ -700,99 +706,68 @@ font-weight: bold;
 }
 
 
-@media screen and (max-width: 577px) {
-  
-  .dd-grid{
-    margin-top: 500px;
-    
-       
-    }
-
-    .box-one, p{
-      margin-left: 10px;
-    }
-  
-   .btn-btn{
-    margin-top: 45px;
-    
-      }
 
 
 
-    .h6, p {
-      padding: 25px;
-      padding-bottom: 50px;
-      font-size: 13px;
-      
-    
-      }
-
-
-    label{
-      margin-right: 30px;
-      
-    }
+@media screen and (max-width: 568px) {
 
     .mid{
-      background-color: rgb(203, 19, 19); 
-      height: 25vh; 
-      border-radius: 15px; 
-      margin-top: 200px;
-      margin-left: 90px;
-      width: 30%;
-       
+     width: 80%;;
+     padding: 1px;
+    
     }
 
-    
-    
-}
-
-
-@media screen and (max-width: 578px) {
-
-    .box-one, p{
-      margin-left: 10px;
-    }
+    .box-two{
+            
+      height: 20vh;
+      width: 80%;
+     }
 
     .box-three{
-      width: 100%;
-      height: 50vh;
+     text-align: center;
+      width: 85%;
+      height: 25vh;
+      
+      
     }
-   
-    
-  }
-    
-      .hotel, h2{
+
+    .box-three, p{
+      
+      width: 85%;
+      height: 20vh;
+      margin-top: 20px;
+      
+    }
+
+    .mid, p{
+      
+       height: 20vh;
+      margin-top: 20px;
+      
+    }
+
+    .dd-grid{
  
-        margin-top: 5px;
-       
-          }
+      margin-top: 180px;
+          
+        }
+
+     } 
 
 
-          @media screen and (max-width: 485px) {
+          @media screen and (max-width: 467px) {
                            
-            .mid{
-              background-color: rgb(203, 19, 19); 
-              height: 25vh; 
-              border-radius: 15px; 
-              margin-top: 20px;
-              margin-left: 90px;
-              width: 40%;
-               
-            }
-
-
-           .box-three{
+            .box-three{
              background-color:rgb(152, 0, 0); 
              color: white; align-content: center; 
              margin-top: 18%; 
              height: 18vh; 
-             border-radius: 10px; 
-             margin: 20px;
-             box-shadow: 2px 2px 2px 1px;
-             box-shadow: 2px 2px 2px 1px;
-             transition: all 0.5s ease-in-out;
-             cursor: pointer;
+             
+           }
+
+
+           .mid{
+            width: 80%;
            }
            
            .box-four{
@@ -800,18 +775,14 @@ font-weight: bold;
              color: white; align-content: center; 
              margin-top: 30%; 
              height: 18vh; 
-             border-radius: 10px; 
+             text-align: center;
              margin: 20px;
-             box-shadow: 2px 2px 2px 1px;
-             transition: all 0.5s ease-in-out;
-             cursor: pointer;
+           
            }
            .dd-grid{
  
-            margin-top: 400px;
-            padding-top: 10px;
-            font-weight: bold;
-               
+            margin-top: 200px;
+                
               }
 
               .mid{
@@ -828,43 +799,13 @@ font-weight: bold;
           }
 
 
-          @media screen and (max-width: 484px) {
-            .box-one{
-            
-             margin-top: 10px;
-             height: 10vh;
-                  
-            }     
+          
 
-                       
-            .box-one, p{
-              margin-left: 10px;
-            }
-            
-            .box-two{
-              height: 20vh;
-              margin-top: 100px;
-              margin-right: 15px;
-            }
-               
-           .dd-grid{
- 
-            margin-top: 300px;
-            padding-top: 10px;
-            
-               
-              }
-
-
-          }
-        
-
-@media screen and (max-width: 454px) {
+@media screen and (max-width: 426px) {
   .dd-grid{
  
-    margin-top: 300px;
-    padding-top: 10px;
-    font-weight: bold;
+    margin-top: 200px;
+        
        
       }
 
@@ -879,21 +820,8 @@ font-weight: bold;
     
   
   
-  @media screen and (max-width: 388px) {
-    .dd-grid{
-
-      width: 80%;
-      font-size: 200px;
-      font-weight: bold;
-      margin-top: 450px; 
-      
-      }
-
-      .btn-btn{
-        margin-top: 10px;
-      }
-
-      
+  @media screen and (max-width: 374px) {
+    
 
       .featured-hotels{
         margin-bottom: 2%;
@@ -905,29 +833,57 @@ font-weight: bold;
 
   @media screen and (max-width: 360px){
 
-    .box-one, p{
-      margin-left: 0px;
+    .mid{
+
+      width: 50%;
+
+    }
+
+    .mid{
+
+      width: 50%;
+      font-size: 10px;
+      height: 30vh;
+      align-content: center;
+      padding: 10px;
+      margin:auto;
+      
+      
+      
+    }
+
+   
+      
+    }
+    .box-one{
+      width: 50%;
+      font-size: 15px;
     }
 
     .box-two{
-      padding-right: 0px;
+      padding: 10px;
       width: 100%;
     }
 
     .box-two, p{
       padding-left: 0px;
-      font-size: 20px;
+      font-size: 15px;
       
+    }
+    
+    .box-two, p{
+      font-size: 15px;
     }
 
     .dd-grid{
-
-          
-      margin-top: 400px; 
+         
+      margin-top: 450px; 
       
       }
-  }
 
+      
+   
+  }
   
 
 
