@@ -1,5 +1,12 @@
   
 /* Global Styles */
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f4f4;
@@ -12,14 +19,14 @@ body {
 /* Sign In Banner Styles */
 .sign-in-banner {
 /* position: fixed; */
+
 top: 0;
 width: 100%;
 /* background-color: #24078c; */
-color: white;
+color: rgb(223, 21, 21);
 text-align: center;
 padding: 10px 0;
-z-index: 1000;
-display: flex;
+z-index: 1000;display: flex;
 justify-content: center;
 align-items: center;
 }
@@ -71,13 +78,23 @@ margin-top: 30px;
 
 }
 
+.mid, box-one, p{
+  margin-top: 55px;
+  margin-left: 20px;
 
+}
+
+/* .mid{
+  margin-top: 50px;
+  background-color: red;
+
+} */
 
 .dd-grid{
   background-color: #07278c; 
   border-radius: 20px; 
   color: white; 
-  margin-top: 40px;
+  margin-top: 10px;
   width: 25%;
   height: 10vh;
   text-align: center;
@@ -88,7 +105,7 @@ margin-top: 30px;
   }
 
  .btn-btn{
-  background-color: rgb(13, 112, 112); 
+  background-color: rgb(208, 231, 231); 
   width: 10%;
   height: 45px;
   border-radius: 15px;
@@ -453,27 +470,12 @@ font-weight: bold;
  
 }
 
-
-
-
-/* .col h3{
- 
-  font-size: 20px;
-  margin-left: 10px;
-  margin-top: 20px;
-  width: 200px;
-  height: 20vh;
-  
-} */
-
-
 .mid{
-  background-color: rgb(7, 2, 2); 
-  height: 25vh; 
+  background-color: rgb(150, 3, 3); 
   border-radius: 15px; 
   margin-top: 20px;
-  margin-left: 90px;
-  width: 90%;
+  /* margin-left: 90px;
+  width: 90%; */
    
 }
 
@@ -613,15 +615,15 @@ font-weight: bold;
 
   @media screen and (max-width: 1200px) {
     .mid{
-      background-color: #100101;
-      padding-left: 2px;
+    margin: auto;
+    width: 100%;
      
     }
 
-   .mid, box-one, p{
-    margin-left: 10px;
+   .mid, box-one{
+    margin-left: 0px;
     width: 100%;
-    font-size: 12px;
+    font-size: 15px;
    }
    
     .btn-btn{
@@ -739,7 +741,7 @@ font-weight: bold;
       
     }
 
-    .mid, p{
+    .mid{
       
        height: 20vh;
       margin-top: 20px;
@@ -757,41 +759,25 @@ font-weight: bold;
 
           @media screen and (max-width: 467px) {
                            
-            .box-three{
-             background-color:rgb(152, 0, 0); 
+            /* .box-three{
              color: white; align-content: center; 
              margin-top: 18%; 
              height: 18vh; 
              
-           }
+           } */
 
-
-           .mid{
-            width: 80%;
-           }
-           
-           .box-four{
-             background-color:rgb(152, 0, 0); 
-             color: white; align-content: center; 
-             margin-top: 30%; 
-             height: 18vh; 
-             text-align: center;
-             margin: 20px;
-           
-           }
            .dd-grid{
  
-            margin-top: 200px;
+            margin-top: 150px;
                 
               }
 
               .mid{
-                background-color: rgb(141, 16, 16); 
+                
                 height: 25vh; 
                 border-radius: 15px; 
-                margin-top: 20px;
-                margin-left: 90px;
-                width: 70%;
+                margin: auto;
+                
                  
               }
 
@@ -809,18 +795,23 @@ font-weight: bold;
        
       }
 
-      .box-one, p{
+      .box-one{
         margin-left: 10px;
       }
+
+      .box-three{
+        height: 30vh;
+      }
+
+      .box-four{
+        height: 30vh;
+      }
   
-  
-  
-    }
+   }
   
     
-  
-  
-  @media screen and (max-width: 374px) {
+    
+  @media screen and (max-width: 394px) {
     
 
       .featured-hotels{
@@ -831,59 +822,102 @@ font-weight: bold;
         
   }
 
-  @media screen and (max-width: 360px){
 
-    .mid{
+   @media screen and (max-width: 344px){
 
-      width: 50%;
+       .mid{
+          width: 100%;
+          height: 25vh;
+          margin:auto;
+          
+                   
+           }
 
-    }
+           .mid, box-one{
+            width: 100%;
+            font-size: 15px;
+           margin-top: 50px;
+            
+          }
 
-    .mid{
+          .mid, box-two{
+            font-size: 15px;
+            width: 50%;
+                       
+          }
 
-      width: 50%;
-      font-size: 10px;
-      height: 30vh;
-      align-content: center;
-      padding: 10px;
-      margin:auto;
-      
-      
-      
-    }
+          .box-two{
+            /* padding-left: 10px; */
+            font-size: 15px;
+            width: 100%;
+           
+            
+          }
 
-   
-      
-    }
-    .box-one{
-      width: 50%;
-      font-size: 15px;
-    }
+          .box-three{
+            /* padding-left: 10px; */
+            font-size: 15px;
+            width: 100%;
+            height: 20vh;
+           
+            
+          }
 
-    .box-two{
+          .dd-grid{
+         
+            margin-top: 450px; 
+            height: 18vh;
+            
+            }
+          
+          }
+
+    @media screen and (max-width: 323px){
+
+      .box-two{
       padding: 10px;
       width: 100%;
     }
 
-    .box-two, p{
-      padding-left: 0px;
-      font-size: 15px;
       
-    }
-    
-    .box-two, p{
+    .mid, box-three{
       font-size: 15px;
+      height: 20vh;
+
     }
 
     .dd-grid{
-         
-      margin-top: 450px; 
-      
+        height: 18vh;
+         width: 80%;
       }
 
-      
+      .box-one{
+        width: 100%;
+        font-size: 15px;
+        height: 20vh;
+        margin: auto;
+      }     
+      .box-two{
+        width: 100%;
+        font-size: 25px;
+        height: 25vh;
+      }     
+        .box-three{
+          width: 100%;
+          font-size: 15px;
+          height: 20vh;
+        }     
+          
+        .box-four{
+          padding-left: 0px;
+          width: 100%;
+          height: 20vh;
+                 
+        }
+
+        }      
    
-  }
+  
   
 
 
